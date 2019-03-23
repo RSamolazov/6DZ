@@ -1,0 +1,31 @@
+.col-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height: 1.45rem;
+    background: #f8f6f6;
+    margin: auto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 1rem;
+    margin:0 1.8rem;
+}
+.header__title{
+    flex-grow: 2;
+    margin: 0.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.4rem;
+    color: #696969;
+    letter-spacing: 0.05rem;
+    font-weight: normal;
+}
+.menu-logo{
+    align-items: center;
+    width: 0.4rem;
+    height: 0.4rem;
+}
