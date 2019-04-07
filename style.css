@@ -445,6 +445,7 @@ font-family: roboto;
   width: 100%; 
   margin: 0; 
   font-family: roboto;
+  font-weight: lighter;
 }
 .somefeat{
   margin: .5rem; 
@@ -453,6 +454,8 @@ font-family: roboto;
   justify-content: center;
   align-items: center;
   background-color: #171f23;
+  height: 4rem;
+
 }
 .somefeat .title{
   font-size: .36rem;
@@ -462,10 +465,35 @@ font-family: roboto;
   border-bottom: .02rem #404040 solid ;   /* !!! */
   margin: .2rem;
 }
-.all-box__somefeat{
+.foo-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+}
+.foo-box__one{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  width: 2.5rem;
+  }
+.somefeat .foo-box__one{
+   height: 2rem;
+}
+.somefeat .foo-box__one .text-box{
+  font-size: .18rem;
+  color:#8e8181;
+ }
+.somefeat .foo-box__one .digit-box{
+  font-size: .48rem;
+  color: #f6f6f6;
+}
+.all-box__somefeat{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 .box__somefeat{
@@ -482,4 +510,5 @@ font-size: .18rem;
 }
 .digit-box__somefeat{
   font-size: .48rem;
+
 }
