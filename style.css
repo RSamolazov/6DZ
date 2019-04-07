@@ -610,3 +610,15 @@ font-family: roboto;
     color: #e84c3d;
   }
   
+  /* GET IN TOCH */
+  .col-git{
+    width: 100%; 
+    margin: 0; 
+  }
+  .git{
+    margin: .5rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
