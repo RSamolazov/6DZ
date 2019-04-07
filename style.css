@@ -440,3 +440,46 @@ font-family: roboto;
   font-size: .14rem;
   font-weight: lighter;
 }
+/* SOME FEATURES */
+.col-somefeat{
+  width: 100%; 
+  margin: 0; 
+  font-family: roboto;
+}
+.somefeat{
+  margin: .5rem; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #171f23;
+}
+.somefeat .title{
+  font-size: .36rem;
+  font-weight: unset;
+  letter-spacing: .1em;
+  color: #f6f6f6;
+  border-bottom: .02rem #404040 solid ;   /* !!! */
+  margin: .2rem;
+}
+.all-box__somefeat{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.box__somefeat{
+  width: 10rem;
+  height: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #f6f6f6;
+}
+.text-box__somefeat{
+font-size: .18rem;
+}
+.digit-box__somefeat{
+  font-size: .48rem;
+}
