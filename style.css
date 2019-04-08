@@ -670,3 +670,43 @@ font-family: roboto;
     font-weight: bold;
     color: #ebebeb;
   }
+/* footer */
+
+.footer{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  font-family: robooto;
+  color: #fff;
+  
+}
+.footer-lom{
+  width: 100%;
+  height: .8rem;
+  background-color: #0c1215;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.title__lom{
+  font-size: .24rem;
+  font-weight: bold;
+}
+.footer-boot{
+  height: 2rem;
+  width: 100%;
+  background-color: #171f23;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  }
+  .title__boot{
+    font-size: .24rem;
+    font-family: bigNod;
+  }
+  .subtitle__boot{
+    font-size: .14rem;
+  }
