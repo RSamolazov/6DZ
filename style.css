@@ -61,6 +61,12 @@ margin: 0 auto;
   text-align: center;
   color: #696969;
   }
+.g-title__dark{
+  font-family: roboto;
+  font-size: .36rem;
+  color: #f6f6f6;
+  border-bottom: .02rem #404040 solid;
+}
 .g-wrap-three-column{
   display: flex;
   flex-direction: row;
@@ -68,7 +74,7 @@ margin: 0 auto;
   align-items: center;
   margin: .5rem; 
  }
-.g-one-box-three-column{
+.g-box-three-column{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,6 +116,20 @@ margin: 0 auto;
   justify-content:center;
   align-items: center;
   margin-bottom: .2rem;
+}
+.g-wrap-foo-column{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+}
+.g-box-foo-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 2.5rem;
 }
 /* header */
 .header{
@@ -170,7 +190,7 @@ margin: 0 auto;
   align-items: center;
   margin: .5rem; 
 }
-.about-us .g-one-box-three-column{
+.about-us .g-box-three-column{
   height: 2rem;
   background: #ebebeb;
 }
@@ -410,54 +430,31 @@ margin: 0 auto;
   font-weight: lighter;
 }
 /* SOME FEATURES */
-.col-somefeat{
-  width: 100%; 
-  margin: 0; 
-  font-family: roboto;
-  font-weight: lighter;
-}
+
 .somefeat{
-  margin: .5rem; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #171f23;
+  margin: .5rem; 
   height: 4rem;
-
+  font-family: roboto;
+  font-weight: lighter;
+  background-color: #171f23;
 }
-.somefeat .title{
-  font-size: .36rem;
-  font-weight: unset;
-  letter-spacing: .1em;
-  color: #f6f6f6;
-  border-bottom: .02rem #404040 solid ;   /* !!! */
-  margin: .2rem;
-}
-.foo-box{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 10rem;
-}
-.foo-box__one{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 2.5rem;
-  }
-.somefeat .foo-box__one{
+.somefeat .g-box-foo-column{
    height: 2rem;
 }
-.somefeat .foo-box__one .text-box{
+.somefeat .foo-column__text{
   font-size: .18rem;
   color:#8e8181;
  }
-.somefeat .foo-box__one .digit-box{
+.somefeat .foo-column__digit{
   font-size: .48rem;
   color: #f6f6f6;
+}
+.somefeat .foo-column__img{
+  height: .6rem;
 }
 /* BLOG POSTS */
 .col-blog-posts{
