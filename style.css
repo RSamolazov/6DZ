@@ -61,7 +61,7 @@ margin: 0 auto;
   text-align: center;
   color: #696969;
   }
-  .g-wrap-three-column{
+.g-wrap-three-column{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -76,6 +76,31 @@ margin: 0 auto;
   margin: 0.2rem;
   width: 3.3rem;
  }
+ .three-column__img{
+   height: .6rem;
+   width: .6rem;
+ }
+ .three-column__title{
+  font-family: roboto;
+  font-size: .18rem;
+  font-weight: bold;
+  color: #707070;
+}
+.three-column__subtitle{
+  width: 75%;
+  font-family: roboto;
+  font-size: .14rem;
+  font-weight: unset;
+  text-align: center;
+  color: #707070;
+}
+.g-btn{
+  background-color: #e84c3d;
+  font-size: .14rem;
+  font-weight: bold;
+  color: #ebebeb;
+  border: none;
+}
 /* header */
 .header{
   display: flex;
@@ -135,37 +160,22 @@ margin: 0 auto;
   align-items: center;
   margin: .5rem; 
 }
-.three-column__title{
-  font-family: roboto;
-  font-size: .18rem;
-  font-weight: bold;
-  color: #707070;
-}
-.three-column__subtitle{
-  width: 75%;
-  font-family: roboto;
-  font-size: .14rem;
-  font-weight: unset;
-  text-align: center;
-  color: #707070;
-}
 .about-us .g-one-box-three-column{
   height: 2rem;
   background: #ebebeb;
 }
-
 .wrap-watch-behind{
-  margin: .5rem; 
   display: flex;
+  margin: .5rem; 
   height: 3.8rem;
 }
 .watch-behind{
-  height: 3.8rem;
-  width: 50%;
-  background-color: #171f23;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 3.8rem;
+  width: 50%;
+  background-color: #171f23;
   align-items: center;
   font-family: roboto;
 }
@@ -174,25 +184,21 @@ margin: 0 auto;
   height: 3.8rem;
 }
 .watch-behind__title{
+  margin: 0;
   font-size: .3rem;
   color: #e7e7e7;
   font-weight: bold;
-  margin: 0;
 }
 .watch-behind__text{
+  margin: 5% 10%;
   font-size: .14rem;
   color: #696969;
   font-weight: 100;
- text-align: center;
- margin: 5% 10%;
-}
-.watch-behind button{
+  text-align: center;
+ }
+.watch-behind__btn{
   width: 1.3rem;
   height: .4rem;
-  background-color: #e84c3d;
-  font-size: .14rem;
-  font-weight: bold;
-  color: #ebebeb;
 }
 /* OUR WORKS */
 
