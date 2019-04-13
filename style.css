@@ -564,65 +564,57 @@ margin: 0 auto;
 }
   
   /* GET IN TOCH */
-  .col-git{
-    width: 100%; 
-    margin: 0;
-    font-family: roboto; 
-  }
-  .git{
-    margin: .5rem; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .git-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 5%;
-  }
-  .git-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5%;
- }
-  .form{
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: #8e8181 solid 2px;
-  }
-  .git-form__title{
-    margin: 0;
-    font-size: .14rem;
-    font-weight: bold;
-    color: #696969;
-    align-self: flex-start;
-  }
-  .text-orange{
-    color: #e84c3d;
-  }
-  .form--smile{
-    width: 4.5rem;
-    height: .5rem;
-  }
-  .form--big{
-    width: 10rem;
-    height: 1.5rem;
-  }
-  .git button{
-    width: 1.3rem;
-    height: .4rem;
-    background-color: #e84c3d;
-    font-size: .14rem;
-    font-weight: bold;
-    color: #ebebeb;
-  }
+.git{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto; 
+  margin: .5rem; 
+}
+.git-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+.git-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.form{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: #8e8181 solid 2px;
+}
+.git-form__title{
+  margin: 0;
+  font-size: .14rem;
+  font-weight: bold;
+  color: #696969;
+  align-self: flex-start;
+}
+.text-orange{
+  color: #e84c3d;
+}
+.form--smile{
+  width: 4.5rem;
+  height: .5rem;
+}
+.form--big{
+  width: 10rem;
+  height: 1.5rem;
+}
+.git-btn{
+  width: 1.3rem;
+  height: .4rem;
+}
 /* footer */
 
 .footer{
