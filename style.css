@@ -130,6 +130,7 @@ margin: 0 auto;
   justify-content: space-around;
   align-items: center;
   width: 2.5rem;
+  margin: .05rem;
 }
 /* header */
 .header{
@@ -495,79 +496,72 @@ margin: 0 auto;
   justify-content: center;
   align-items: center;
   margin: .5rem;
-  height: 7rem; 
+  height: 8rem; 
   font-family: roboto;
   font-weight: lighter;
   background-color: #171f23;
 }
-.chose-plan .title{
-  font-size: .36rem;
-  font-weight: unset;
-  letter-spacing: .1em;
-  color: #f6f6f6;
-  border-bottom: .02rem #404040 solid ;   /* !!! */
-  margin: .2rem;
+.chose-plan .g-wrap-foo-column{
+  justify-content: space-between;
+  background-color: #1f282c;
+  margin: .5rem;
 }
-.title-box{
+.chose-plan .g-box-foo-column{
+  justify-content: space-between;
+  background-color: #1f282c;
+}
+.title-box-foo-column{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 1.5rem;
   width: 2.5rem;
-  background-color: #353535;
+  background-color: #0e1316;
 }
-.title-box__title{
-  font-size: .2rem;
-  color: #d6d5d5;
-  margin: 0;
+.title-box__caption{
+  font-size: .14rem;
+  color: #fff;
 }
-.puy-box{
+.title-box__digit{
+  font-size: .36rem;
+  color: #fff;
+  font-weight: lighter;
+}
+.puy-box-foo-column{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   height: 2rem;
 }
-.chose-plan .foo-box__one{
-   height: 5rem;
-   
-   border-width: .02rem;
-   border: none;
+.chose-plan .g-box-foo-column{
+  height: 5rem;
 }
-
-.chose-plan .foo-box__one .text-box{
+.puy-box__text{
   font-size: .18rem;
   color:#8e8181;
  }
-.chose-plan .digit-box{
-  font-size: .32rem;
-  color: #f6f6f6;
-  font-weight: lighter;
-}
-.digit-box--small{
+.puy-box__digit{
   font-size: .18rem;
   color: #f6f6f6;
   font-weight: bold;
 }
-.chose-plan button{
+.chose-plan__btn{
+  margin-bottom: 30%;
   width: 1.3rem;
   height: .4rem;
-  background-color: #e84c3d;
-  font-size: .14rem;
-  font-weight: bold;
-  color: #ebebeb;
 }
-.chose-plan .foo-box__one:hover{
+.chose-plan .g-box-foo-column:hover{
   height: 5rem;
-  border-style: solid;
-  border-color: #e84c3d;
-  border-width: .02rem;
+  outline-style: solid;
+  outline-color: #e84c3d;
+  outline-width: .04rem;
 }
-.chose-plan .foo-box__one:hover
-  .digit-box--small{
+.chose-plan .g-box-foo-column:hover
+.digit-box--small{
     color: #e84c3d;
-  }
+}
   
   /* GET IN TOCH */
   .col-git{
