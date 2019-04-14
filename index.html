@@ -7,19 +7,33 @@
     <title>Boostfolia</title>
 </head>
 <body>
+    <a class="g-home__link" href="#hed">GO HOME</a>
     <div class="wrapper">
         <!-- header -->
-        <header class="header">
+        <header class="header" id="hed">
             <img class="g-logo" src="images/missile.gif" alt="Missile">
             <h1 class="header__title">BOOSTFOLIA</h1>
-            <svg class="g-menu">
-                <line x1="0" y1="0" x2="40" y2="0"  stroke="#464646"stroke-width="2"/>
-                <line x1="0" y1="15" x2="40" y2="15"  stroke="#999898"stroke-width="2"/>
-                <line x1="0" y1="30" x2="40" y2="30"  stroke="#464646"stroke-width="2"/>
-            </svg>
+            <div class="g-menu">
+                <svg class="g-menu-icon">
+                    <line x1="0" y1="0" x2="40" y2="0"  stroke="#464646"stroke-width="2"/>
+                    <line x1="0" y1="15" x2="40" y2="15"  stroke="#999898"stroke-width="2"/>
+                    <line x1="0" y1="30" x2="40" y2="30"  stroke="#464646"stroke-width="2"/>
+                </svg>
+                <ul class="g-menu-list">
+                    <li><a href="#home" class="g-menu__link">HOME</a></li>
+                    <li><a href="#au" class="g-menu__link">ABOUT US</a></li>
+                    <li><a href="#ow" class="g-menu__link">OUR WORKS</a></li>
+                    <li><a href="#wwa" class="g-menu__link">WHO WE ARE</a></li>
+                    <li><a href="#sf" class="g-menu__link">SOME FEATURES</a></li>
+                    <li><a href="#bp" class="g-menu__link">BLOG POSTS</a></li>
+                    <li><a href="#chp" class="g-menu__link">CHOSE PLAN</a></li>
+                    <li><a href="#git" class="g-menu__link">GET IN TOCH</a></li>
+                    <li><a href="#lom" class="g-menu__link">LOCATE ON MAPE</a></li>
+                </ul>
+            </div>    
         </header>
         <!-- HOME -->
-        <section class="home">
+        <section class="home" id="home">
             <div class="home-content">
                 <img class="home__img" src="images/more.gif" alt="more">
                 <div class="home-text">
@@ -34,7 +48,7 @@
             </div>
         </section>
         <!-- ABOUT US -->
-        <section class="about-us">
+        <section class="about-us" id="au">
             <h2 class="g-title">ABOUT US</h2>
             <span class="g-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
                  elit, sed do eiusmod tempor incididunt
@@ -71,7 +85,7 @@
             <iframe  src="https://www.youtube.com/embed/7kzv1g9kY8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>    
         <!-- OUR WORKS -->
-        <secton class="oworks">
+        <secton class="oworks" id="ow">
             <h2 class="g-title">OUR WORKS</h2>
             <span class="g-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
                 elit, sed do eiusmod tempor incididunt
@@ -105,7 +119,7 @@
             </div>
         </secton>
          <!-- WHo WE ARE -->
-        <section class="wwa">
+        <section class="wwa" id="wwa">
             <h2 class="g-title">WHO WE ARE</h2>
             <span class="g-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
                 elit, sed do eiusmod tempor incididunt
@@ -170,7 +184,7 @@
             </div>
         </section>
          <!-- SOME FEATURES -->
-         <section class="somefeat">
+         <section class="somefeat" id="sf">
             <h2 class="g-title g-title__dark">SOME FEATURES</h2>
             <div class="g-wrap-foo-column">
                 <div class="g-box-foo-column">
@@ -196,7 +210,7 @@
             </div>
         </section>
         <!-- BLOG POSTS-->
-        <section class="blog-posts">
+        <section class="blog-posts"  id="bp">
             <h2 class="g-title">BLOG POSTS</h2>
             <span class="g-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
                 elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -226,7 +240,7 @@
             </div>
         </section>
         <!-- CHOSE PLAN -->
-        <section class="chose-plan">
+        <section class="chose-plan"  id="chp">
             <h2 class="g-title g-title__dark">CHOSE PLAN</h2>
             <div class="g-wrap-foo-column">
                     <div class="g-box-foo-column">
@@ -292,7 +306,7 @@
             </div>
         </section>
         <!-- GET IN TOCH -->
-        <section class="git">
+        <section class="git" id="git">
             <h2 class="g-title">GET IN TOCH</h2>
             <span class="g-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
                 elit, sed do eiusmod tempor incididunt
@@ -315,7 +329,7 @@
             <button class="g-btn git-btn">SEND MASSEGE</button>
         </section>
        <!-- Footer -->
-        <footer class="footer">
+        <footer class="footer"  id="lom">
             <div class="footer-lom">
                 <span class="title__lom">LOCATE ON MAPE</span>
                 <img src="images/low.gif" alt="LOW">
@@ -324,15 +338,13 @@
                 <img src="images/missile.gif" alt="missile">
                 <span class="title__boot" >BOOSTFOLIA</span>
                 <span  class="subtitle__boot">MADE WITH LOVE BY CREATIVEPRODUCT</span>
-                <div class="box-logo">
-                        <img src="images/be-w.gif" alt="Be">
-                        <img src="images/twi-w.gif" alt="Twitter">
-                        <img src="images/facebook-w.gif" alt="Facebook">
+                <div class="g-box-logo">
+                    <img src="images/be-w.gif" alt="Be">
+                    <img src="images/twi-w.gif" alt="Twitter">
+                    <img src="images/facebook-w.gif" alt="Facebook">
                 </div>
             </div>
         </footer>
     </div>  
-
-    
 </body>
 </html>
